@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 /*Обнуление*/
 * {
   padding: 0;
@@ -76,7 +77,17 @@ h1, h2, h3, h4, h5, h6 {
   --main-color: ;
 }
 
-main [class*=__container] {
+.text {
+  font-size: 50px;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+:root {
+  --main-color: ;
+}
+
+[class*=__container] {
   max-width: 800px;
   margin: 0 auto;
 }
@@ -89,6 +100,10 @@ main [class*=__container] {
 }
 
 body {
-  font-family: 992.98px;
-  font-size: 12px;
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+:root {
+  --main-color: ;
 }
