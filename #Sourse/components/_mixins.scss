@@ -8,10 +8,10 @@
 }
 @mixin rotate($deg) {
 	-webkit-transition: rotate($deg);
-	transition: rotate($deg);
 	-moz-transition: rotate($deg);
 	-ms-transition: rotate($deg);
 	-o-transition: rotate($deg);
+	transition: rotate($deg);
 }
 @mixin cnt($h) {
 	display: flex;
