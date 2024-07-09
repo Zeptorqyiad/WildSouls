@@ -11,6 +11,14 @@ $ff1: Roboto;
 	--white-color: #ffffff;
 }
 
+%default-text {
+	color: var(--dark-color);
+	font-weight: 400;
+	line-height: calc(14 / 24 * 100%);
+	font-family: $ff1;
+	letter-spacing: 0%;
+}
+
 // Break-points
 
 //$pc: em($containerWidth); // ПК, ноутбуки, некоторые планшеты в горизонтальном положении

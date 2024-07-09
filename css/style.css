@@ -78,35 +78,90 @@ h1, h2, h3, h4, h5, h6 {
   --white-color: #ffffff;
 }
 
-.text {
-  font-size: 50px;
-  font-family: Roboto;
+.menu__item a {
+  color: var(--dark-color);
   font-weight: 400;
+  line-height: 58.3333333333%;
+  font-family: Roboto;
+  letter-spacing: 0%;
 }
 
-:root {
-  --dark-color: #000000;
-  --white-color: #ffffff;
-}
-
-.hero {
+.header {
   position: relative;
   background-image: url("../../assets/image/Main/Main-page.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  height: calc(100vh - 46px);
+  height: 110vh;
+}
+
+.header__content {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__ls, .header__rs {
+  display: flex;
+  flex: 1 1 415px;
+  padding: 30px 26px 33px 16px;
+}
+
+.header__rs {
+  flex: 0 1 325px;
+  justify-content: flex-end;
+}
+
+.menu {
+  display: flex;
+  gap: 42px;
+}
+
+.menu__item a {
+  text-transform: uppercase;
+}
+
+.logo-image {
+  position: absolute;
+  top: 31px;
+  left: 47%;
 }
 
 :root {
   --dark-color: #000000;
   --white-color: #ffffff;
+}
+
+.menu__item a {
+  color: var(--dark-color);
+  font-weight: 400;
+  line-height: 58.3333333333%;
+  font-family: Roboto;
+  letter-spacing: 0%;
+}
+
+:root {
+  --dark-color: #000000;
+  --white-color: #ffffff;
+}
+
+.menu__item a {
+  color: var(--dark-color);
+  font-weight: 400;
+  line-height: 58.3333333333%;
+  font-family: Roboto;
+  letter-spacing: 0%;
 }
 
 [class*=__container] {
   max-width: 1470px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+[class*=_container] {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .wrapper {
@@ -138,4 +193,12 @@ body {
 :root {
   --dark-color: #000000;
   --white-color: #ffffff;
+}
+
+.menu__item a {
+  color: var(--dark-color);
+  font-weight: 400;
+  line-height: 58.3333333333%;
+  font-family: Roboto;
+  letter-spacing: 0%;
 }
