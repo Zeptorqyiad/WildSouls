@@ -1,0 +1,10 @@
+@import "../components/ui";
+
+.hero {
+	position: relative;
+	background-image: url("../../assets/image/Main/Main-page.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: calc(100vh - 46px);
+}

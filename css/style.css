@@ -74,7 +74,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------*/
 :root {
-  --main-color: ;
+  --dark-color: #000000;
+  --white-color: #ffffff;
 }
 
 .text {
@@ -84,12 +85,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 :root {
-  --main-color: ;
+  --dark-color: #000000;
+  --white-color: #ffffff;
+}
+
+.hero {
+  position: relative;
+  background-image: url("../../assets/image/Main/Main-page.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: calc(100vh - 46px);
+}
+
+:root {
+  --dark-color: #000000;
+  --white-color: #ffffff;
 }
 
 [class*=__container] {
-  max-width: 800px;
+  max-width: 1470px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .wrapper {
@@ -104,6 +121,21 @@ body {
   font-size: 16px;
 }
 
+.top-header {
+  height: 46px;
+  width: 100%;
+  background-color: var(--dark-color);
+}
+.top-header p {
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  padding: 11px 0;
+}
+
 :root {
-  --main-color: ;
+  --dark-color: #000000;
+  --white-color: #ffffff;
 }
