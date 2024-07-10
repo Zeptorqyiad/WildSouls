@@ -76,6 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 :root {
   --dark-color: #000000;
   --white-color: #ffffff;
+  --bg-color: #ed7b49;
 }
 
 .menu__item a {
@@ -154,6 +155,7 @@ h1, h2, h3, h4, h5, h6 {
 :root {
   --dark-color: #000000;
   --white-color: #ffffff;
+  --bg-color: #ed7b49;
 }
 
 .menu__item a {
@@ -193,6 +195,63 @@ h1, h2, h3, h4, h5, h6 {
 :root {
   --dark-color: #000000;
   --white-color: #ffffff;
+  --bg-color: #ed7b49;
+}
+
+.menu__item a {
+  color: var(--dark-color);
+  font-weight: 400;
+  line-height: 58.3333333333%;
+  font-family: Roboto;
+}
+
+.hero__title {
+  color: var(--dark-color);
+  font-family: Roboto;
+  font-size: 85px;
+  font-weight: 400;
+  line-height: 93.5px;
+}
+
+.products__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.products__wrapper {
+  display: flex;
+}
+
+.products__wrapper-icon {
+  position: relative;
+  width: 241px;
+  height: 241px;
+  background-color: var(--dark-color);
+  border-radius: 50%;
+  background-image: url("../../assets/image/Main/No.svg");
+  background-repeat: no-repeat;
+  background-position: 51% 48%;
+}
+
+.circle-icon {
+  position: absolute;
+  top: 5.5%;
+  left: 5.5%;
+  animation: circleText 20s infinite linear;
+}
+
+@keyframes circleText {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+:root {
+  --dark-color: #000000;
+  --white-color: #ffffff;
+  --bg-color: #ed7b49;
 }
 
 .menu__item a {
@@ -226,6 +285,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  background-color: var(--bg-color);
 }
 
 body {
@@ -236,6 +296,7 @@ body {
 :root {
   --dark-color: #000000;
   --white-color: #ffffff;
+  --bg-color: #ed7b49;
 }
 
 .menu__item a {

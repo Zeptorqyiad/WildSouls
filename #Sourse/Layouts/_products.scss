@@ -1,0 +1,48 @@
+@import "../components/ui";
+
+.products {
+}
+.products__content {
+	display: flex;
+	flex-direction: column;
+}
+.products__wrapper {
+	display: flex;
+}
+.products__wrapper-icon {
+	position: relative;
+	width: 241px;
+	height: 241px;
+	background-color: var(--dark-color);
+	border-radius: 50%;
+	background-image: url("../../assets/image/Main/No.svg");
+	background-repeat: no-repeat;
+	background-position: 51% 48%;
+}
+.circle-icon {
+	position: absolute;
+	top: 5.5%;
+	left: 5.5%;
+	animation: circleText 20s infinite linear;
+	// animation-name: circleText;
+	// animation-duration: 20s;
+	// animation-iteration-count: infinite;
+	// animation-timing-function: linear;
+}
+
+@keyframes circleText {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+.products__wrapper-blocktext {
+}
+.blocktext__title {
+}
+.blocktext__text {
+}
+.products__slider {
+}
