@@ -388,8 +388,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .products__slider {
-  padding: 0 25px;
   display: flex;
+  justify-content: center;
   gap: 62px;
 }
 
@@ -468,6 +468,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-slider_honey {
   background: rgb(254, 207, 107);
+}
+
+.item-1,
+.item-3 {
+  margin: 143px 0;
 }
 
 :root {
