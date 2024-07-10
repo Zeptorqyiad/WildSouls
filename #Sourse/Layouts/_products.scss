@@ -61,9 +61,8 @@
 	@extend %small-text;
 }
 .swiper-wrapper {
+	padding: 0 40px;
 	display: flex;
-	justify-content: center;
-	gap: 62px;
 }
 .swiper-slide {
 	position: relative;
@@ -98,6 +97,9 @@
 }
 .bg-slider_butter {
 	background: #f6b8d3;
+}
+.bg-slider_high {
+	background: #f84f5a;
 }
 .slider__bg img {
 	position: absolute;
@@ -150,10 +152,12 @@
 .btn-slider_butter {
 	background: #f6b8d3;
 }
+.btn-slider_high {
+	background: #f84f5a;
+}
 .item-m {
 	margin: 143px 0;
 }
-
 .swiper {
 	max-width: 1920px;
 	height: 100%;

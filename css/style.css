@@ -385,9 +385,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .swiper-wrapper {
+  padding: 0 40px;
   display: flex;
-  justify-content: center;
-  gap: 62px;
 }
 
 .swiper-slide {
@@ -430,6 +429,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .bg-slider_butter {
   background: #f6b8d3;
+}
+
+.bg-slider_high {
+  background: #f84f5a;
 }
 
 .slider__bg img {
@@ -490,6 +493,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-slider_butter {
   background: #f6b8d3;
+}
+
+.btn-slider_high {
+  background: #f84f5a;
 }
 
 .item-m {
