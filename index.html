@@ -8,6 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" href="css/style.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -67,51 +68,85 @@
 						</div>
 					</div>
 				</div>
-				<div class="products__slider">
-					<div class="slider__item item-1">
-						<div class="slider__bg">
-							<img src="./assets/image/Products/1.png" alt="Wild Peanut Butter">
+				<div class="swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide item-m">
+							<div class="slider__bg">
+								<img src="./assets/image/Products/1.png" alt="Wild Peanut Butter">
+							</div>
+							<div class="slider__blocktext">
+								<h3 class="slider__title">The Wild Peanut Butter</h3>
+								<p class="slider__price">€4,90</p>
+								<button class="slider__btn">Buy Now!</button>
+							</div>
 						</div>
-						<div class="slider__blocktext">
-							<h3 class="slider__title">The Wild Peanut Butter</h3>
-							<p class="slider__price">€4,90</p>
-							<button class="slider__btn">Buy Now!</button>
+						<div class="swiper-slide">
+							<div class="slider__bg bg-slider_cocoa">
+								<img src="./assets/image/Products/2.png" alt="Tahini with Cocoa & Honey">
+							</div>
+							<div class="slider__blocktext">
+								<h3 class="slider__title">Tahini with Cocoa & Honey</h3>
+								<p class="slider__price">€5,90</p>
+								<button class="slider__btn btn-slider_cocoa">Buy Now!</button>
+							</div>
 						</div>
-					</div>
-					<div class="slider__item">
-						<div class="slider__bg bg-slider_cocoa">
-							<img src="./assets/image/Products/2.png" alt="Wild Peanut Butter">
+						<div class="swiper-slide item-m">
+							<div class="slider__bg bg-slider_butter">
+								<img src="./assets/image/Products/3.png" alt="Wild Hazelnut Butter">
+							</div>
+							<div class="slider__blocktext">
+								<h3 class="slider__title">The Wild Hazelnut Butter</h3>
+								<p class="slider__price">€6,90</p>
+								<button class="slider__btn btn-slider_butter">Buy Now!</button>
+							</div>
 						</div>
-						<div class="slider__blocktext">
-							<h3 class="slider__title">Tahini with Cocoa & Honey</h3>
-							<p class="slider__price">€5,90</p>
-							<button class="slider__btn btn-slider_cocoa">Buy Now!</button>
+						<div class="swiper-slide">
+							<div class="slider__bg bg-slider_honey">
+								<img src="./assets/image/Products/4.png" alt="Wild Tahini">
+							</div>
+							<div class="slider__blocktext">
+								<h3 class="slider__title">The Wild Tahini</h3>
+								<p class="slider__price">€4,90</p>
+								<button class="slider__btn btn-slider_honey">Buy Now!</button>
+							</div>
 						</div>
-					</div>
-					<div class="slider__item item-3">
-						<div class="slider__bg bg-slider_butter">
-							<img src="./assets/image/Products/3.png" alt="Wild Peanut Butter">
+						<div class="swiper-slide item-m">
+							<div class="slider__bg bg-slider_tahini">
+								<img src="./assets/image/Products/5.png" alt="Thahini with Chia Seeds">
+							</div>
+							<div class="slider__blocktext">
+								<h3 class="slider__title">Thahini with Chia Seeds</h3>
+								<p class="slider__price">€5,90</p>
+								<button class="slider__btn btn-slider_tahini">Buy Now!</button>
+							</div>
 						</div>
-						<div class="slider__blocktext">
-							<h3 class="slider__title">The Wild Hazelnut Butter</h3>
-							<p class="slider__price">€6,90</p>
-							<button class="slider__btn btn-slider_butter">Buy Now!</button>
+						<div class="swiper-slide">
+							<div class="slider__bg bg-slider_def-tahini">
+								<img src="./assets/image/Products/6.png" alt="Thahini">
+							</div>
+							<div class="slider__blocktext">
+								<h3 class="slider__title">Thahini</h3>
+								<p class="slider__price">€3,90</p>
+								<button class="slider__btn btn-slider_def-tahini">Buy Now!</button>
+							</div>
 						</div>
-					</div>
-					<div class="slider__item">
-						<div class="slider__bg bg-slider_honey">
-							<img src="./assets/image/Products/4.png" alt="Wild Peanut Butter">
-						</div>
-						<div class="slider__blocktext">
-							<h3 class="slider__title">The Wild Tahini</h3>
-							<p class="slider__price">€4,90</p>
-							<button class="slider__btn btn-slider_honey">Buy Now!</button>
+						<div class="swiper-slide item-m">
+							<div class="slider__bg bg-slider_butter">
+								<img src="./assets/image/Products/7.png" alt="Almond Butter">
+							</div>
+							<div class="slider__blocktext">
+								<h3 class="slider__title">Almond Butter</h3>
+								<p class="slider__price">€7,20</p>
+								<button class="slider__btn btn-slider_butter">Buy Now!</button>
+							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 		</main>
 	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="js/swiper.js"></script>
 	<script src="js/script.js"></script>
 </body>
 
