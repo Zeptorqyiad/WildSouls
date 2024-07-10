@@ -19,6 +19,14 @@ $ff1: Roboto;
 	font-family: $ff1;
 }
 
+%small-text {
+	color: var(--dark-color);
+	font-family: $ff1;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
 %large-text {
 	color: var(--dark-color);
 	font-family: $ff1;

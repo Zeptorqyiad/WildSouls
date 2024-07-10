@@ -1,6 +1,7 @@
 @import "../components/ui";
 
 .products {
+	margin: 74px 0 58px 0;
 }
 .products__content {
 	display: flex;
@@ -8,6 +9,9 @@
 }
 .products__wrapper {
 	display: flex;
+	padding: 0 149px 0 123px;
+	justify-content: space-between;
+	align-items: center;
 }
 .products__wrapper-icon {
 	position: relative;
@@ -17,7 +21,7 @@
 	border-radius: 50%;
 	background-image: url("../../assets/image/Main/No.svg");
 	background-repeat: no-repeat;
-	background-position: 51% 48%;
+	background-position: 53% 48%;
 }
 .circle-icon {
 	position: absolute;
@@ -39,10 +43,21 @@
 	}
 }
 .products__wrapper-blocktext {
+	max-width: 506px;
 }
 .blocktext__title {
+	h2 {
+		@extend %large-text;
+	}
+	color: var(--dark-color);
+	font-family: $ff1;
+	font-size: 85px;
+	font-weight: 700;
+	line-height: 93.5px;
 }
 .blocktext__text {
+	margin-top: 12px;
+	@extend %small-text;
 }
 .products__slider {
 }

@@ -45,16 +45,34 @@
 	a {
 		@extend %default-text;
 		text-transform: uppercase;
+		text-decoration: none;
+		display: inline-block;
+		line-height: 1;
 	}
 }
+.item__link {
+	position: relative;
+}
+.item__link::after {
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: -10px;
+	display: block;
+	width: 100%;
+	height: 3px;
+	background: #000;
+}
+.item__link::after {
+	width: 0;
+	transition: 0.5s;
+}
+.item__link:hover:after {
+	width: 100%;
+}
+
 .logo-image {
 	position: absolute;
 	top: 31px;
 	left: 46%;
-}
-@keyframes runningStroke {
-	0% {
-	}
-	100% {
-	}
 }
