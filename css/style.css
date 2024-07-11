@@ -556,7 +556,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .wildWay {
-  margin: 260px 0;
+  margin: 300px 0;
 }
 
 .wildWay__content {
@@ -617,14 +617,61 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
   left: 20%;
   z-index: 2;
-  transform: translate(-25%, -10%);
+  transform: translate(-25%, 0%);
 }
 
 .box-image:nth-of-type(3) {
   opacity: 1;
   left: 25%;
   z-index: 1;
-  transform: translate(-10%, -10%);
+  transform: translate(-10%, 0%);
+}
+
+:root {
+  --dark-color: #000000;
+  --white-color: #ffffff;
+  --bg-color: #ed7b49;
+  --green-color: #72a080;
+}
+
+.menu__item a {
+  color: var(--dark-color);
+  font-weight: 400;
+  line-height: 58.3333333333%;
+  font-family: Roboto;
+}
+
+.blocktext__text, .wildWay__title p {
+  color: var(--dark-color);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.hero__title, .blocktext__title h2 {
+  color: var(--dark-color);
+  font-family: Roboto;
+  font-size: 85px;
+  font-weight: 400;
+  line-height: 93.5px;
+}
+
+.slider__title {
+  color: var(--dark-color);
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.12px;
+  text-align: left;
+}
+
+.slider__price {
+  color: var(--dark-color);
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 31.5px;
 }
 
 :root {

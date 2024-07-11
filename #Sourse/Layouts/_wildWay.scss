@@ -1,7 +1,7 @@
 @import "../components/ui";
 
 .wildWay {
-	margin: 260px 0;
+	margin: 300px 0;
 }
 
 .wildWay__content {
@@ -61,12 +61,12 @@
 	opacity: 1;
 	left: 20%;
 	z-index: 2;
-	transform: translate(-25%, -10%);
+	transform: translate(-25%, 0%);
 }
 
 .box-image:nth-of-type(3) {
 	opacity: 1;
 	left: 25%;
 	z-index: 1;
-	transform: translate(-10%, -10%);
+	transform: translate(-10%, 0%);
 }
