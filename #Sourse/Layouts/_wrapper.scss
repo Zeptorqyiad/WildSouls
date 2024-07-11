@@ -19,6 +19,10 @@
 	background-color: var(--bg-color);
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: $ff1;
 	font-size: 16px;

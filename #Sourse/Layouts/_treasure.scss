@@ -1,1 +1,118 @@
 @import "../components/ui";
+
+.treasure {
+	display: flex;
+	gap: 95px;
+	align-items: center;
+}
+.treasure__nuts {
+	display: flex;
+	justify-content: flex-end;
+	height: 833px;
+	flex: 0 1 56.6%;
+	border-radius: 0px 220px 0px 0px;
+	background: #be5a4b;
+	padding: 94px 50px 74px 15px;
+}
+
+.treasure__content {
+	max-width: 750px;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+.treasure__title {
+	max-width: 400px;
+	color: var(--dark-color);
+	font-family: $ff1;
+	font-size: 85px;
+	font-weight: 700;
+	line-height: 93.5px;
+}
+.treasure__block {
+	display: flex;
+	justify-content: space-between;
+	gap: 19px;
+}
+.treasure__blocktext {
+	width: 277px;
+}
+.treasure__blocktext-subtitle {
+	color: var(--dark-color);
+	font-family: $ff1;
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 50.4px;
+}
+.treasure__blocktext-text {
+	max-width: 234px;
+	color: var(--dark-color);
+	font-family: $ff1;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-top: 14px;
+}
+.treasure__blocktext-price {
+	color: var(--dark-color);
+	font-family: $ff1;
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 31.5px;
+	margin-top: 20px;
+}
+.btn-wild {
+	padding: 0 42px;
+}
+.treasure__block-image {
+	position: relative;
+}
+.treasure__block-image img:first-child {
+	position: relative;
+	z-index: 2;
+}
+.treasure__block-image img:last-child {
+	position: absolute;
+	top: -70px;
+	right: 0px;
+	z-index: 1;
+}
+.nut-image {
+	width: 350px;
+	height: 433px;
+}
+.choose-nuts {
+	flex: 0 1 43.4%;
+	max-width: 285px;
+	height: 669px;
+	display: flex;
+	flex-direction: column;
+}
+
+.choose-nuts :first-child {
+	color: var(--dark-color);
+	font-family: $ff1;
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 31.5px;
+	text-transform: uppercase;
+	margin-bottom: 90px;
+}
+.nuts-choose {
+	color: var(--dark-color);
+	font-family: $ff1;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 50.4px;
+	border-bottom: 1px solid #000;
+}
+.nuts-choose:not(:last-child) {
+	margin-bottom: 43px;
+}
+.nuts-choose sup {
+	margin-left: 5px;
+	color: var(--dark-color);
+	font-family: $ff1;
+	font-size: 16px;
+	font-weight: 400;
+}
