@@ -13,3 +13,11 @@ setInterval(() => {
    last.remove()
    imgSlider.appendChild(last)
 }, 2500)
+
+let imgSlider2 = document.querySelector('.concept-image')
+
+setInterval(() => {
+   let first = imgSlider2.firstElementChild
+   first.remove()
+   imgSlider2.appendChild(first)
+}, 2500)
