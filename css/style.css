@@ -1059,6 +1059,104 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 31.5px;
 }
 
+.gift {
+  background: #f5afb9;
+  height: 681px;
+  display: flex;
+  gap: 95px;
+}
+
+.gift-ls {
+  background-color: #abafd6;
+  padding: 90px 19px 63px 15px;
+  display: flex;
+  justify-content: flex-end;
+  flex: 0 1 56.6%;
+  border-radius: 0px 220px 0px 0px;
+}
+
+.gift-title {
+  max-width: 424px;
+}
+
+.gift-sert {
+  background-color: #ec4844;
+  width: 445px;
+  height: 681px;
+  padding: 65px 58px 55px 58px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gift-sert img {
+  width: 147px;
+  height: 327px;
+}
+
+.gift-sert__title {
+  color: var(--dark-color);
+  font-family: Roboto;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50.4px;
+  text-align: center;
+  margin-top: 39px;
+}
+
+.btn-sert {
+  padding: 17px 42px;
+  width: 297px;
+}
+
+:root {
+  --dark-color: #000000;
+  --white-color: #ffffff;
+  --bg-color: #ed7b49;
+  --green-color: #72a080;
+}
+
+.menu__item a {
+  color: var(--dark-color);
+  font-weight: 400;
+  line-height: 58.3333333333%;
+  font-family: Roboto;
+}
+
+.blocktext__text, .wildWay__title p {
+  color: var(--dark-color);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.hero__title, .blocktext__title h2 {
+  color: var(--dark-color);
+  font-family: Roboto;
+  font-size: 85px;
+  font-weight: 400;
+  line-height: 93.5px;
+}
+
+.slider__title {
+  color: var(--dark-color);
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.12px;
+  text-align: left;
+}
+
+.slider__price {
+  color: var(--dark-color);
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 31.5px;
+}
+
 [class*=__container] {
   max-width: 1470px;
   margin: 0 auto;

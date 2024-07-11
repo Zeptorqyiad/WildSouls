@@ -1,0 +1,46 @@
+@import "../components/ui";
+
+.gift {
+	background: #f5afb9;
+	height: 681px;
+	display: flex;
+	gap: 95px;
+}
+.gift-ls {
+	background-color: #abafd6;
+	padding: 90px 19px 63px 15px;
+	display: flex;
+	justify-content: flex-end;
+	flex: 0 1 56.6%;
+	border-radius: 0px 220px 0px 0px;
+}
+.gift-title {
+	max-width: 424px;
+}
+.gift-sert {
+	background-color: #ec4844;
+	width: 445px;
+	height: 681px;
+	padding: 65px 58px 55px 58px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.gift-sert img {
+	width: 147px;
+	height: 327px;
+}
+.gift-sert__title {
+	color: var(--dark-color);
+	font-family: $ff1;
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 50.4px;
+	text-align: center;
+	margin-top: 39px;
+}
+.btn-sert {
+	padding: 17px 42px;
+	width: 297px;
+}
