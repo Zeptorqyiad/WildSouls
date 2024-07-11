@@ -1,0 +1,72 @@
+@import "../components/ui";
+
+.wildWay {
+	margin: 260px 0;
+}
+
+.wildWay__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.wildWay__blocktext {
+	display: flex;
+	flex-direction: column;
+	max-width: 354px;
+}
+.wildWay__title {
+	color: var(--dark-color);
+	font-family: $ff1;
+	font-size: 85px;
+	font-weight: 700;
+	line-height: 93.5px;
+	margin-bottom: 19px;
+	p {
+		@extend %small-text;
+	}
+}
+.wild-btn {
+	color: var(--white-color);
+	font-family: $ff1;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0 64px;
+	margin-top: 47px;
+	background-color: var(--dark-color);
+	max-width: 260px;
+	border-radius: 32px;
+}
+.wildWay__image {
+	position: relative;
+	perspective: 700px;
+	height: 700px;
+	width: 600px;
+	transform-style: preserve-3d;
+}
+.box-image {
+	position: absolute;
+	transition: 800ms ease-in-out;
+}
+
+.box-image:first-of-type {
+	opacity: 1;
+	left: 15%;
+	z-index: 3;
+}
+
+.box-image:nth-of-type(2) {
+	opacity: 1;
+	left: 20%;
+	z-index: 2;
+	transform: translate(-25%, -10%);
+}
+
+.box-image:nth-of-type(3) {
+	opacity: 1;
+	left: 25%;
+	z-index: 1;
+	transform: translate(-10%, -10%);
+}
