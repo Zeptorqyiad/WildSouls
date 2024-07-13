@@ -17,7 +17,15 @@ setInterval(() => {
 let imgSlider2 = document.querySelector('.concept-image')
 
 setInterval(() => {
-   let first = imgSlider2.firstElementChild
-   first.remove()
-   imgSlider2.appendChild(first)
+   let last = imgSlider2.firstElementChild
+   last.remove()
+   imgSlider2.appendChild(last)
+}, 2500)
+
+let imgSlider3 = document.querySelector('.bite-image')
+
+setInterval(() => {
+   let last = imgSlider3.firstElementChild
+   last.remove()
+   imgSlider3.appendChild(last)
 }, 2500)

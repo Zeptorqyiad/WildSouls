@@ -21,9 +21,10 @@
 	font-weight: 700;
 	line-height: 93.5px;
 	margin-bottom: 19px;
-	p {
-		@extend %small-text;
-	}
+}
+.wildway-text {
+	@extend %small-text;
+	line-height: calc(24 / 16 * 100%);
 }
 .wild-btn {
 	color: var(--white-color);

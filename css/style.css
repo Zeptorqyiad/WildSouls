@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Roboto;
 }
 
-.wildWay__title p, .blocktext__text {
+.bite-text, .concept-text, .wildway-text, .blocktext__text {
   color: var(--dark-color);
   font-family: Roboto;
   font-size: 16px;
@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Roboto;
 }
 
-.wildWay__title p, .blocktext__text {
+.bite-text, .concept-text, .wildway-text, .blocktext__text {
   color: var(--dark-color);
   font-family: Roboto;
   font-size: 16px;
@@ -293,7 +293,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Roboto;
 }
 
-.wildWay__title p, .blocktext__text {
+.bite-text, .concept-text, .wildway-text, .blocktext__text {
   color: var(--dark-color);
   font-family: Roboto;
   font-size: 16px;
@@ -331,6 +331,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .products__content {
+  position: relative;
   display: flex;
   flex-direction: column;
 }
@@ -522,7 +523,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Roboto;
 }
 
-.wildWay__title p, .blocktext__text {
+.bite-text, .concept-text, .wildway-text, .blocktext__text {
   color: var(--dark-color);
   font-family: Roboto;
   font-size: 16px;
@@ -579,6 +580,11 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 93.5px;
   margin-bottom: 19px;
 }
+
+.wildway-text {
+  line-height: 150%;
+}
+
 .wild-btn {
   color: var(--white-color);
   font-family: Roboto;
@@ -641,7 +647,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Roboto;
 }
 
-.blocktext__text, .wildWay__title p {
+.bite-text, .concept-text, .blocktext__text, .wildway-text {
   color: var(--dark-color);
   font-family: Roboto;
   font-size: 16px;
@@ -821,7 +827,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Roboto;
 }
 
-.blocktext__text, .wildWay__title p {
+.bite-text, .concept-text, .blocktext__text, .wildway-text {
   color: var(--dark-color);
   font-family: Roboto;
   font-size: 16px;
@@ -927,7 +933,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Roboto;
 }
 
-.blocktext__text, .wildWay__title p {
+.bite-text, .concept-text, .blocktext__text, .wildway-text {
   color: var(--dark-color);
   font-family: Roboto;
   font-size: 16px;
@@ -965,18 +971,50 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .concept__content {
+  position: relative;
   padding: 200px 0 420px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+.circle-block {
+  position: absolute;
+  width: 282px;
+  height: 282px;
+  top: 6%;
+  left: 17%;
+}
+
+.circle-shop {
+  position: relative;
+  background-color: var(--dark-color);
+  border-radius: 50%;
+  background-image: url("../../assets/image/Concept/Globus.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.circle-text {
+  animation: Circle2 infinite linear 20s;
+}
+
+@keyframes Circle2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .concept-title {
   max-width: 336px;
 }
 
 .concept-text {
   max-width: 318px;
+  line-height: 150%;
 }
 
 .concept-image {
@@ -1026,7 +1064,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Roboto;
 }
 
-.blocktext__text, .wildWay__title p {
+.bite-text, .blocktext__text, .wildway-text, .concept-text {
   color: var(--dark-color);
   font-family: Roboto;
   font-size: 16px;
@@ -1124,7 +1162,79 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Roboto;
 }
 
-.blocktext__text, .wildWay__title p {
+.bite-text, .blocktext__text, .wildway-text, .concept-text {
+  color: var(--dark-color);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.hero__title, .blocktext__title h2 {
+  color: var(--dark-color);
+  font-family: Roboto;
+  font-size: 85px;
+  font-weight: 400;
+  line-height: 93.5px;
+}
+
+.slider__title {
+  color: var(--dark-color);
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.12px;
+  text-align: left;
+}
+
+.slider__price {
+  color: var(--dark-color);
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 31.5px;
+}
+
+.bite {
+  background-color: #f5afb9;
+}
+
+.Vector-bite {
+  background-image: url("../../assets/image/Bite/Vector.png");
+  background-position: center center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-color: var(--dark-color);
+  border-radius: 50%;
+}
+
+.bite-text {
+  line-height: 150%;
+}
+
+.bite-image {
+  position: relative;
+  perspective: 700px;
+  height: 700px;
+  width: 600px;
+  transform-style: preserve-3d;
+}
+
+:root {
+  --dark-color: #000000;
+  --white-color: #ffffff;
+  --bg-color: #ed7b49;
+  --green-color: #72a080;
+}
+
+.menu__item a {
+  color: var(--dark-color);
+  font-weight: 400;
+  line-height: 58.3333333333%;
+  font-family: Roboto;
+}
+
+.blocktext__text, .wildway-text, .concept-text, .bite-text {
   color: var(--dark-color);
   font-family: Roboto;
   font-size: 16px;
@@ -1213,7 +1323,7 @@ body::-webkit-scrollbar-thumb {
   font-family: Roboto;
 }
 
-.blocktext__text, .wildWay__title p {
+.blocktext__text, .wildway-text, .concept-text, .bite-text {
   color: var(--dark-color);
   font-family: Roboto;
   font-size: 16px;

@@ -1,0 +1,25 @@
+@import "../components/ui";
+
+.bite {
+	background-color: #f5afb9;
+}
+.Vector-bite {
+	background-image: url("../../assets/image/Bite/Vector.png");
+	background-position: center center;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-color: var(--dark-color);
+	border-radius: 50%;
+}
+.bite-text {
+	@extend %small-text;
+	line-height: calc(24 / 16 * 100%);
+}
+
+.bite-image {
+	position: relative;
+	perspective: 700px;
+	height: 700px;
+	width: 600px;
+	transform-style: preserve-3d;
+}
