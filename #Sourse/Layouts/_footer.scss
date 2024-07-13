@@ -1,1 +1,42 @@
 @import "../components/ui";
+
+.footer {
+	background-color: inherit;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 57px;
+}
+.footer__content {
+	display: flex;
+	flex-direction: column;
+	padding: 133px 0px 70px 0px;
+}
+.footer__content-image {
+	margin: 0 auto;
+}
+.footer__down-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer-image-text-1 {
+	width: 154px;
+	max-height: 44px;
+}
+.footer-image-text-2 {
+	width: 167px;
+	max-height: 50px;
+}
+.footer-image-text-3 {
+	width: 125px;
+	max-height: 63px;
+}
+.footer__grid-block {
+	display: grid;
+	grid-template-columns: 475px repeat(2, 285px);
+	grid-template-rows: 690px;
+}
+.footer__grid-block .col-1 {
+	gap: 95px;
+}
