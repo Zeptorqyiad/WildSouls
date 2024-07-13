@@ -261,6 +261,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer__content {
   display: flex;
   flex-direction: column;
+  gap: 116px;
   padding: 133px 0px 70px 0px;
 }
 
@@ -294,10 +295,136 @@ h1, h2, h3, h4, h5, h6 {
   display: grid;
   grid-template-columns: 475px repeat(2, 285px);
   grid-template-rows: 690px;
+  gap: 45px;
 }
 
-.footer__grid-block .col-1 {
-  gap: 95px;
+.col-1 {
+  padding: 0 15px;
+}
+
+.col-1 h2 {
+  color: var(--dark-color);
+  font-family: Roboto;
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 93.5px;
+}
+
+.email-input {
+  margin-top: 21px;
+  display: flex;
+  width: 445px;
+  height: 24px;
+  color: var(--dark-color);
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  background-color: initial;
+  border-bottom: 1px solid #000;
+  padding-bottom: 6px;
+  margin-bottom: 113px;
+}
+
+::-webkit-input-placeholder {
+  color: var(--dark-color);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.follow__block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 60px;
+}
+
+.follow__block p {
+  color: var(--dark-color);
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+}
+
+.icon-follow-block {
+  display: flex;
+  gap: 18px;
+  margin: 0 auto 14px 0;
+}
+
+.icon-follow {
+  width: 22px;
+  height: 22px;
+}
+
+.copyright__pay {
+  display: flex;
+  flex-direction: column;
+}
+.copyright__pay > div {
+  margin-bottom: 20px;
+}
+
+.pay-block a > img {
+  width: 36px;
+  height: 25px;
+}
+
+.copy__block-text {
+  color: var(--dark-color);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.col-2,
+.col-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 81px;
+}
+
+.col-3_comp,
+.col-3_help,
+.col-2_prod {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.col-2_contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.h3-col-2 {
+  color: var(--dark-color);
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+}
+
+.col-2p-text a {
+  color: var(--dark-color);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.col-2_contact > h3 {
+  margin-bottom: 21px;
+}
+
+.col-2_contact > a {
+  margin-top: 12px;
 }
 
 :root {
