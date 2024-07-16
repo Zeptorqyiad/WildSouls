@@ -130,6 +130,15 @@
 		flex-direction: column;
 		gap: 5px;
 	}
+	.budger__line.active.line-1 {
+		transform: translate(0px, 14px) rotate(45deg);
+	}
+	.budger__line.active.line-2 {
+		transform: scale(0);
+	}
+	.budger__line.active.line-3 {
+		transform: translate(0px, -4px) rotate(-45deg);
+	}
 	.line-1,
 	.line-2,
 	.line-3 {
@@ -137,5 +146,6 @@
 		height: 4px;
 		border-radius: 2px;
 		background-color: #000;
+		transition: transform 0.3s ease 0s;
 	}
 }
