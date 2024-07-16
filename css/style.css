@@ -211,6 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo-image {
   position: absolute;
+  margin: 0 auto;
   top: 31px;
   left: 46%;
 }
@@ -224,7 +225,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateX(100%);
   }
   .burger-list.active {
-    transform: translateX(-1%);
+    transform: translateX(0%);
   }
   .burger-list {
     display: flex;
@@ -276,6 +277,42 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 2px;
     background-color: #000;
     transition: transform 0.3s ease 0s;
+  }
+  .hero__title {
+    font-size: 70px;
+    line-height: 72.5px;
+    margin-top: 10vh;
+  }
+}
+@media (max-width: 1330px) {
+  .header {
+    background-size: auto;
+    height: 100vh;
+  }
+  .logo-image {
+    position: absolute;
+    margin: 0 auto;
+    top: 31px;
+    left: 43%;
+  }
+}
+@media (max-width: 479.98px) {
+  .logo-image {
+    position: absolute;
+    margin: 0 auto;
+    top: 31px;
+    left: 38%;
+    width: 81px;
+    height: inherit;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero__title * {
+    font-size: 10vw;
+    line-height: normal;
+  }
+  .hero__button {
+    bottom: 0;
   }
 }
 :root {
@@ -806,6 +843,16 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
 }
 
+@media (max-width: 1038.98px) {
+  .products__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .products__wrapper-blocktext {
+    text-align: center;
+  }
+}
 :root {
   --dark-color: #000000;
   --white-color: #ffffff;

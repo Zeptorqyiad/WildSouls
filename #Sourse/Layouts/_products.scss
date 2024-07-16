@@ -159,3 +159,13 @@
 	max-width: 1920px;
 	height: 100%;
 }
+@media (max-width: 1038.98px) {
+	.products__wrapper {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.products__wrapper-blocktext {
+		text-align: center;
+	}
+}
